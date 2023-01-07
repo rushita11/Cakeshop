@@ -58,7 +58,12 @@ h6,
     border: 1px solid var(--light);
     z-index: 0;
 }
-
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1020;
+}
 .btn-square {
     width: 40px;
     height: 40px;
